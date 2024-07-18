@@ -1,0 +1,28 @@
+08:02:18.300 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+08:02:18.300 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+08:02:18.313 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/PracticeCucumber
+08:02:18.314 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+08:02:18.315 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+08:02:18.318 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/PracticeCucumber
+08:02:22.542 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+08:02:22.544 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+08:02:22.548 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/PracticeCucumber
+08:02:22.549 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+08:02:22.550 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+08:02:22.553 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/PracticeCucumber
+08:02:43.505 [main] INFO  c.b.launchers.LaunchMavenCommand - Executing maven archetype command - browserstack-sdk-archetype-integrate
+08:02:43.584 [main] INFO  c.b.launchers.LaunchMavenCommand - The maven properties for launcher are [archetypeVersion=1.4, archetypeGroupId=com.browserstack, archetypeArtifactId=browserstack-sdk-archetype-integrate, BROWSERSTACK_ACCESS_KEY=bkPyh6FsKMb4dNc8f4GC, groupId=com.browserstack, artifactId=java-archetype-integrate, BROWSERSTACK_USERNAME=brosertester_B0zSTo, BROWSERSTACK_FRAMEWORK=java, BUILD_NAME=browserstack build2, version=1.0, PROJECT_NAME=BrowserStack Sample2, BROWSERSTACK_SOURCE=java:eclipse:v1.0.8]
+08:03:39.457 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+08:03:39.458 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+08:03:39.460 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/PracticeCucumber
+08:03:39.462 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+08:03:39.462 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+08:03:39.465 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/PracticeCucumber
+08:04:59.351 [Worker-12: Launching Executing test in C__Users_myrab_new eclipse_eclipse-workspace_PracticeCucumber] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+16:37:46.012 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+16:37:46.020 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+16:37:46.023 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/PracticeCucumber
+16:37:46.024 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+16:37:46.025 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+16:37:46.027 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/PracticeCucumber
+16:38:16.168 [Framework stop - Equinox Container: 54ccedb3-14b3-454f-ac01-268a2547769f] INFO  c.b.BrowserStackPluginActivator - Stopping BrowserStack Plugin...

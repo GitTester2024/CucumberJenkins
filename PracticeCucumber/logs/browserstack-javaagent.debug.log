@@ -1,0 +1,383 @@
+01:00:32.927 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.22.0
+01:00:32.932 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+01:00:33.317 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {style.color=always, basedir=C\:\\Users\\myrab\\new eclipse\\eclipse-workspace\\PracticeCucumber, user.dir=C\:\\Users\\myrab\\new eclipse\\eclipse-workspace\\PracticeCucumber, localrepository=C\:\\Users\\myrab\\.m2\\repository}
+01:00:33.320 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\myrab\new eclipse\eclipse-workspace\PracticeCucumber\browserstack.yml
+01:00:33.397 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+01:00:33.942 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to DEBUG
+01:00:33.942 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO
+01:00:33.955 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire12177493966812464998tmp
+01:00:33.956 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire12177493966812464998tmp
+01:00:33.961 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.19.5
+01:00:33.961 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+01:00:33.967 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for INT
+01:00:33.967 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for TERM
+01:00:33.967 [main] DEBUG c.b.utils.ExitSignalHandler - Unable to attach signal handler for HUP Unknown signal: HUP
+01:00:33.967 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for ABRT
+01:00:34.579 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-aps.browserstack.com","hub-euw.browserstack.com","hub-apse.browserstack.com"]
+01:00:34.850 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 269ms
+01:00:35.812 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 947ms
+01:00:37.450 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 1637ms
+01:00:37.452 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-aps.browserstack.com
+01:00:37.481 [main] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestAttempted with data: {"event_type":"SDKTestAttempted","accessKey":"bkPyh6FsKMb4dNc8f4GC","userName":"brosertester_B0zSTo","event_properties":{"product":"[automate, observability]","buildName":"browserstack-build-2","os":"Windows 11","languageVersion":"17.0.11","appiumVersion":"","frameworkDetectionInstrumentation":{},"language":"java","sdkRunId":"8c094646-7651-4e23-9813-29516fbf10f9","buildIdentifier":"#1","userFramework":"testng","testhub_uuid":"","detectedAppiumVersion":"null","detectedDependencies":"cucumber, testng","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":true},"referrer":"testng-javaagent\/1.19.5","hostname":"LAPTOP-5VUI9PNA","language_framework":"java_testng","detectedFramework":"none","detectedSeleniumVersion":"4.22.0","seleniumVersion":"4.22.0"}}
+01:00:38.095 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+01:00:38.096 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+01:00:38.121 [main] DEBUG c.browserstack.testOps.RequestUtils - [ TESTHUB ] Processing Request Kind launchTestSession
+01:00:38.122 [main] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v2/builds with request size 727
+01:00:39.730 [main] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+01:00:39.731 [main] DEBUG com.browserstack.testOps.Listener - BROWSERSTACK_TESTHUB_UUID : xbg8mjmhpdv6srq6qvk0fvjelwo2vjnqr5xixkvv
+01:00:39.731 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Build creation successfull
+01:00:39.731 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+01:00:39.746 [main] DEBUG com.browserstack.LocalFactory - Starting BrowserStack Local with identifier 16_Jul_10_LAPTOP_5VUI9PNA_NM0Q
+01:00:47.671 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+01:00:49.199 [main] DEBUG c.b.t.XMLSuiteClassListener - Number of parallels - 1 and number of platforms - 1
+01:00:49.432 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+01:00:49.441 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+01:00:49.446 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+01:00:49.446 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+01:00:49.447 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+01:00:49.449 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+01:00:49.452 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+01:00:49.453 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+01:00:49.453 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+01:00:49.453 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+01:00:49.469 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+01:00:49.470 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+01:00:49.471 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+01:00:49.471 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+01:00:49.471 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+01:00:49.489 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-07-15T19:30:49.487565500Z][ OBSERVABILITY ] Processing Logs patching stream
+01:00:49.569 [setUpClass@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: io.cucumber.testng.AbstractTestNGCucumberTests 
+01:00:49.569 [setUpClass@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\myrab\new eclipse\eclipse-workspace\PracticeCucumber, TestClass :: io\cucumber\testng\AbstractTestNGCucumberTests
+01:00:49.604 [setUpClass@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: null, fileSeparator :: \, AbsolutePath :: C:\Users\myrab\new eclipse\eclipse-workspace\PracticeCucumber\., Normalized Path :: C:\Users\myrab\new eclipse\eclipse-workspace\PracticeCucumber, File.Separator :: \
+01:00:49.604 [setUpClass@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Fallback File Name is :: PracticeCucumber\testng.xml, Suite File Name :: C:\Users\myrab\new eclipse\eclipse-workspace\PracticeCucumber\testng.xml
+01:00:49.606 [setUpClass@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+01:00:49.893 [Test-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunStarted, Test ClassName :: runner.testrunnerTest 
+01:00:49.893 [Test-0@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\myrab\new eclipse\eclipse-workspace\PracticeCucumber, TestClass :: runner\testrunnerTest
+01:00:49.911 [Test-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\myrab\new eclipse\eclipse-workspace\PracticeCucumber\src\test\java\runner\testrunnerTest.java, fileSeparator :: \, AbsolutePath :: C:\Users\myrab\new eclipse\eclipse-workspace\PracticeCucumber\., Normalized Path :: C:\Users\myrab\new eclipse\eclipse-workspace\PracticeCucumber, File.Separator :: \
+01:00:49.912 [Test-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: PracticeCucumber\src\test\java\runner\testrunnerTest.java, Absolute Path :: C:\Users\myrab\new eclipse\eclipse-workspace\PracticeCucumber\.., Normalized Path :: C:\Users\myrab\new eclipse\eclipse-workspace 
+01:00:49.927 [Test-0@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunStarted
+01:00:51.194 [runScenario@0] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+01:00:51.200 [runScenario@0] DEBUG c.b.selenium.SeleniumHandler - beforeDriverInit: SDK enabled
+01:00:51.208 [runScenario@0] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+01:00:51.450 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 1721071851450
+
+01:00:51.475 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 17
+
+01:00:51.475 [pool-4-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 4993
+01:00:51.755 [pool-4-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+01:00:51.756 [pool-4-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-07-15T19:30:51.756954300Z][ TESTHUB ] Batch event successfull!
+
+01:00:55.442 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3982
+
+01:00:58.485 [runScenario@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+01:00:58.487 [runScenario@0] DEBUG c.b.selenium.SeleniumHandler - afterDriverInit: requested
+01:00:58.490 [runScenario@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:00:58.492 [runScenario@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+01:00:58.603 [Forwarding get on session c3a59d25afafb5cdcd932bd8de70b5297f7d5774 to remote] DEBUG c.browserstack.utils.UtilityMethods - [Error]java.lang.IllegalAccessError: Update to non-static final field org.openqa.selenium.remote.HttpCommandExecutor.client attempted from a different method (execute) than the initializer method <init> 
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:300)
+	at pages.LaunchPage.openurl(LaunchPage.java:17)
+	at modules.LaunchModule.openurl(LaunchModule.java:20)
+	at stepdefinition.LaunchStep.i_login_to_website(LaunchStep.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+01:00:59.441 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3999
+
+01:01:01.442 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2001
+
+01:01:04.189 [runScenario@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: io.cucumber.testng.AbstractTestNGCucumberTests 
+01:01:04.190 [runScenario@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\myrab\new eclipse\eclipse-workspace\PracticeCucumber, TestClass :: io\cucumber\testng\AbstractTestNGCucumberTests
+01:01:04.201 [runScenario@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: null, fileSeparator :: \, AbsolutePath :: C:\Users\myrab\new eclipse\eclipse-workspace\PracticeCucumber\., Normalized Path :: C:\Users\myrab\new eclipse\eclipse-workspace\PracticeCucumber, File.Separator :: \
+01:01:04.201 [runScenario@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Fallback File Name is :: PracticeCucumber\testng.xml, Suite File Name :: C:\Users\myrab\new eclipse\eclipse-workspace\PracticeCucumber\testng.xml
+01:01:04.236 [runScenario@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:01:04.237 [runScenario@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+01:01:04.237 [runScenario@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunFinished
+01:01:04.238 [runScenario@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: runner.testrunnerTest 
+01:01:04.238 [runScenario@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\myrab\new eclipse\eclipse-workspace\PracticeCucumber, TestClass :: runner\testrunnerTest
+01:01:04.250 [runScenario@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\myrab\new eclipse\eclipse-workspace\PracticeCucumber\src\test\java\runner\testrunnerTest.java, fileSeparator :: \, AbsolutePath :: C:\Users\myrab\new eclipse\eclipse-workspace\PracticeCucumber\., Normalized Path :: C:\Users\myrab\new eclipse\eclipse-workspace\PracticeCucumber, File.Separator :: \
+01:01:04.250 [runScenario@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: PracticeCucumber\src\test\java\runner\testrunnerTest.java, Absolute Path :: C:\Users\myrab\new eclipse\eclipse-workspace\PracticeCucumber\.., Normalized Path :: C:\Users\myrab\new eclipse\eclipse-workspace 
+01:01:04.261 [runScenario@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:01:04.262 [runScenario@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+01:01:04.267 [runScenario@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunFinished
+01:01:04.315 [tearDownClass@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: io.cucumber.testng.AbstractTestNGCucumberTests 
+01:01:04.315 [tearDownClass@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\myrab\new eclipse\eclipse-workspace\PracticeCucumber, TestClass :: io\cucumber\testng\AbstractTestNGCucumberTests
+01:01:04.327 [tearDownClass@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: null, fileSeparator :: \, AbsolutePath :: C:\Users\myrab\new eclipse\eclipse-workspace\PracticeCucumber\., Normalized Path :: C:\Users\myrab\new eclipse\eclipse-workspace\PracticeCucumber, File.Separator :: \
+01:01:04.327 [tearDownClass@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Fallback File Name is :: PracticeCucumber\testng.xml, Suite File Name :: C:\Users\myrab\new eclipse\eclipse-workspace\PracticeCucumber\testng.xml
+01:01:04.332 [tearDownClass@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:01:04.332 [tearDownClass@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+01:01:04.332 [tearDownClass@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+01:01:04.334 [tearDownClass@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: io.cucumber.testng.AbstractTestNGCucumberTests 
+01:01:04.334 [tearDownClass@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\myrab\new eclipse\eclipse-workspace\PracticeCucumber, TestClass :: io\cucumber\testng\AbstractTestNGCucumberTests
+01:01:04.348 [tearDownClass@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: null, fileSeparator :: \, AbsolutePath :: C:\Users\myrab\new eclipse\eclipse-workspace\PracticeCucumber\., Normalized Path :: C:\Users\myrab\new eclipse\eclipse-workspace\PracticeCucumber, File.Separator :: \
+01:01:04.348 [tearDownClass@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Fallback File Name is :: PracticeCucumber\testng.xml, Suite File Name :: C:\Users\myrab\new eclipse\eclipse-workspace\PracticeCucumber\testng.xml
+01:01:04.353 [tearDownClass@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+01:01:04.353 [tearDownClass@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+01:01:04.353 [tearDownClass@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunFinished
+01:01:04.355 [tearDownClass@0] DEBUG c.browserstack.utils.LogReportingAPI - sendPlatformDetails: Can't send CBT info, as driver or test is not found
+01:01:05.442 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 4000
+
+01:01:05.443 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 4
+
+01:01:05.443 [pool-4-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 8555
+01:01:05.977 [pool-4-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+01:01:05.977 [pool-4-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-07-15T19:31:05.977605Z][ TESTHUB ] Batch event successfull!
+
+01:01:06.762 [Thread-0] DEBUG c.browserstack.BrowserStackJavaAgent - Starting final execution
+01:01:06.763 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+01:01:06.763 [Thread-0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-07-15T19:31:06.763384800Z][ OBSERVABILITY ] Processing stop observability
+01:01:06.763 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [ TESTHUB ] Processing Request Kind stopBuildUpstream
+01:01:06.764 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: PUT api/v1/builds/xbg8mjmhpdv6srq6qvk0fvjelwo2vjnqr5xixkvv/stop with request size 65
+01:01:07.064 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+01:01:07.064 [Thread-0] DEBUG com.browserstack.testOps.Listener - Testhub stop response: 
+01:01:07.064 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/xbg8mjmhpdv6srq6qvk0fvjelwo2vjnqr5xixkvv to view build report, insights, and many more debugging information all at one place!
+
+01:01:07.064 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+01:01:09.505 [Thread-0] DEBUG com.browserstack.testOps.UsageStats - getFormattedData: Collecting data for TestObservability
+01:01:09.505 [Thread-0] DEBUG com.browserstack.testOps.UsageStats - getEventStats: Getting event data for TestObservability
+01:01:09.508 [Thread-0] DEBUG com.browserstack.testOps.UsageStats - [OBSERVABILITY] Failed to parse data from workers
+01:01:09.542 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestSuccessful with data: {"event_type":"SDKTestSuccessful","accessKey":"bkPyh6FsKMb4dNc8f4GC","userName":"brosertester_B0zSTo","event_properties":{"product":"[automate, observability]","buildName":"browserstack-build-2","os":"Windows 11","languageVersion":"17.0.11","appiumVersion":"","frameworkDetectionInstrumentation":{"ret-org.openqa.selenium.remote.RemoteWebDriver":385,"retransformClasses":386},"language":"java","sdkRunId":"8c094646-7651-4e23-9813-29516fbf10f9","buildIdentifier":"#1","userFramework":"testng","testhub_uuid":"xbg8mjmhpdv6srq6qvk0fvjelwo2vjnqr5xixkvv","detectedAppiumVersion":"null","detectedDependencies":"cucumber, testng","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":true},"referrer":"testng-javaagent\/1.19.5","hostname":"LAPTOP-5VUI9PNA","measures":{"local:start":7937,"sdk:setup":14809,"local:stop":2436},"language_framework":"java_testng","detectedFramework":"none","productUsage":{"testObservability":{"buildHashedId":"xbg8mjmhpdv6srq6qvk0fvjelwo2vjnqr5xixkvv","manuallySet":false,"enabled":true,"events":{"hookEvents":{"started":{"errors":[],"sentCount":2,"failedCount":0,"triggeredCount":2},"finished":{"triggeredCount":2,"failedCount":0,"errors":[],"sentCount":2},"passed":{"errors":[],"sentCount":2,"failedCount":0,"triggeredCount":2}},"logEvents":{"errors":[],"sentCount":15,"failedCount":0,"triggeredCount":15,"log":{"errors":[],"sentCount":15,"failedCount":0,"triggeredCount":15}},"testEvents":{"started":{"errors":[],"sentCount":1,"failedCount":0,"triggeredCount":1},"finished":{"triggeredCount":1,"failedCount":0,"errors":[],"sentCount":1},"passed":{"errors":[],"sentCount":1,"failedCount":0,"triggeredCount":1}},"batchEvents":{"triggeredCount":2,"failedCount":0,"errors":[],"sentCount":2},"cbtSessionEvents":{"errors":[],"sentCount":0,"failedCount":0,"triggeredCount":0},"buildEvents":{"started":{"error":null,"status":"success","triggered":true},"finished":{"error":null,"status":"success","triggered":true}}}}},"detectedSeleniumVersion":"4.22.0","seleniumVersion":"4.22.0"}}
+01:01:09.937 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+01:01:11.557 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/74fbd51a79fcaec8a6378850b346f91d2e7e68b8
+01:01:11.557 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+01:01:11.557 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(browserstack-build-2  1) is not same as client side buildName(browserstack-build-2 #1)
+01:01:11.558 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Browserstack Gradle-M Config File does not exist.
+08:05:07.409 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.22.0
+08:05:07.416 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+08:05:07.698 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {style.color=always, basedir=C\:\\Users\\myrab\\new eclipse\\eclipse-workspace\\PracticeCucumber, user.dir=C\:\\Users\\myrab\\new eclipse\\eclipse-workspace\\PracticeCucumber, localrepository=C\:\\Users\\myrab\\.m2\\repository}
+08:05:07.699 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\myrab\new eclipse\eclipse-workspace\PracticeCucumber\browserstack.yml
+08:05:07.760 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+08:05:07.766 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+08:05:08.126 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to DEBUG
+08:05:08.127 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO
+08:05:08.137 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire9071486421433961434tmp
+08:05:08.137 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire9071486421433961434tmp
+08:05:08.137 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.19.5
+08:05:08.138 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+08:05:08.141 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for INT
+08:05:08.141 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for TERM
+08:05:08.141 [main] DEBUG c.b.utils.ExitSignalHandler - Unable to attach signal handler for HUP Unknown signal: HUP
+08:05:08.142 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for ABRT
+08:05:08.890 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-aps.browserstack.com","hub-euw.browserstack.com","hub-apse.browserstack.com"]
+08:05:09.212 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 317ms
+08:05:10.163 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 940ms
+08:05:11.811 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 1646ms
+08:05:11.815 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-aps.browserstack.com
+08:05:11.837 [main] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestAttempted with data: {"event_type":"SDKTestAttempted","accessKey":"bkPyh6FsKMb4dNc8f4GC","userName":"brosertester_B0zSTo","event_properties":{"product":"[automate, observability]","buildName":"browserstack build2","os":"Windows 11","languageVersion":"17.0.11","appiumVersion":"","frameworkDetectionInstrumentation":{},"language":"java","sdkRunId":"f0eadbd7-3bf2-438e-8985-4ebdf2c647af","buildIdentifier":"#1","userFramework":"testng","testhub_uuid":"","detectedAppiumVersion":"null","detectedDependencies":"cucumber, testng","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":true},"referrer":"testng-javaagent\/1.19.5","hostname":"LAPTOP-5VUI9PNA","language_framework":"java_testng","detectedFramework":"none","detectedSeleniumVersion":"4.22.0","seleniumVersion":"4.22.0"}}
+08:05:12.694 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+08:05:12.694 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+08:05:12.719 [main] DEBUG c.browserstack.testOps.RequestUtils - [ TESTHUB ] Processing Request Kind launchTestSession
+08:05:12.719 [main] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v2/builds with request size 743
+08:05:14.748 [main] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+08:05:14.749 [main] DEBUG com.browserstack.testOps.Listener - BROWSERSTACK_TESTHUB_UUID : vpao88f9ucki9qzuxvdeh1pltits8xsmhcvcadul
+08:05:14.749 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Build creation successfull
+08:05:14.749 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+08:05:14.764 [main] DEBUG com.browserstack.LocalFactory - Starting BrowserStack Local with identifier 16_Jul_85_LAPTOP_5VUI9PNA_ovfR
+08:05:22.128 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+08:05:23.570 [main] DEBUG c.b.t.XMLSuiteClassListener - Number of parallels - 1 and number of platforms - 1
+08:05:23.788 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+08:05:23.791 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+08:05:23.803 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+08:05:23.803 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+08:05:23.803 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+08:05:23.805 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+08:05:23.806 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+08:05:23.806 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+08:05:23.806 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+08:05:23.806 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+08:05:23.824 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+08:05:23.824 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+08:05:23.824 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+08:05:23.824 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+08:05:23.825 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+08:05:23.846 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-07-16T02:35:23.846756900Z][ OBSERVABILITY ] Processing Logs patching stream
+08:05:23.993 [setUpClass@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: io.cucumber.testng.AbstractTestNGCucumberTests 
+08:05:23.995 [setUpClass@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\myrab\new eclipse\eclipse-workspace\PracticeCucumber, TestClass :: io\cucumber\testng\AbstractTestNGCucumberTests
+08:05:24.024 [setUpClass@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: null, fileSeparator :: \, AbsolutePath :: C:\Users\myrab\new eclipse\eclipse-workspace\PracticeCucumber\., Normalized Path :: C:\Users\myrab\new eclipse\eclipse-workspace\PracticeCucumber, File.Separator :: \
+08:05:24.024 [setUpClass@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Fallback File Name is :: PracticeCucumber\testng.xml, Suite File Name :: C:\Users\myrab\new eclipse\eclipse-workspace\PracticeCucumber\testng.xml
+08:05:24.027 [setUpClass@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+08:05:24.347 [Test-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunStarted, Test ClassName :: runner.testrunnerTest 
+08:05:24.347 [Test-0@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\myrab\new eclipse\eclipse-workspace\PracticeCucumber, TestClass :: runner\testrunnerTest
+08:05:24.363 [Test-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\myrab\new eclipse\eclipse-workspace\PracticeCucumber\src\test\java\runner\testrunnerTest.java, fileSeparator :: \, AbsolutePath :: C:\Users\myrab\new eclipse\eclipse-workspace\PracticeCucumber\., Normalized Path :: C:\Users\myrab\new eclipse\eclipse-workspace\PracticeCucumber, File.Separator :: \
+08:05:24.363 [Test-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: PracticeCucumber\src\test\java\runner\testrunnerTest.java, Absolute Path :: C:\Users\myrab\new eclipse\eclipse-workspace\PracticeCucumber\.., Normalized Path :: C:\Users\myrab\new eclipse\eclipse-workspace 
+08:05:24.380 [Test-0@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunStarted
+08:05:25.679 [runScenario@0] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+08:05:25.684 [runScenario@0] DEBUG c.b.selenium.SeleniumHandler - beforeDriverInit: SDK enabled
+08:05:25.689 [runScenario@0] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+08:05:25.806 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 1721097325806
+
+08:05:25.817 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 17
+
+08:05:25.819 [pool-4-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 4990
+08:05:26.134 [pool-4-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+08:05:26.134 [pool-4-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-07-16T02:35:26.134948800Z][ TESTHUB ] Batch event successfull!
+
+08:05:29.794 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3987
+
+08:05:31.806 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2011
+
+08:05:32.625 [runScenario@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+08:05:32.625 [runScenario@0] DEBUG c.b.selenium.SeleniumHandler - afterDriverInit: requested
+08:05:32.628 [runScenario@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+08:05:32.628 [runScenario@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+08:05:32.679 [Forwarding get on session 027b8eeb1dc50197e489ecccf64f8a793e7936be to remote] DEBUG c.browserstack.utils.UtilityMethods - [Error]java.lang.IllegalAccessError: Update to non-static final field org.openqa.selenium.remote.HttpCommandExecutor.client attempted from a different method (execute) than the initializer method <init> 
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:300)
+	at pages.LaunchPage.openurl(LaunchPage.java:17)
+	at modules.LaunchModule.openurl(LaunchModule.java:20)
+	at stepdefinition.LaunchStep.i_login_to_website(LaunchStep.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+08:05:35.798 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3992
+
+08:05:37.804 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2006
+
+08:05:39.284 [runScenario@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: io.cucumber.testng.AbstractTestNGCucumberTests 
+08:05:39.285 [runScenario@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\myrab\new eclipse\eclipse-workspace\PracticeCucumber, TestClass :: io\cucumber\testng\AbstractTestNGCucumberTests
+08:05:39.299 [runScenario@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: null, fileSeparator :: \, AbsolutePath :: C:\Users\myrab\new eclipse\eclipse-workspace\PracticeCucumber\., Normalized Path :: C:\Users\myrab\new eclipse\eclipse-workspace\PracticeCucumber, File.Separator :: \
+08:05:39.299 [runScenario@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Fallback File Name is :: PracticeCucumber\testng.xml, Suite File Name :: C:\Users\myrab\new eclipse\eclipse-workspace\PracticeCucumber\testng.xml
+08:05:39.348 [runScenario@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+08:05:39.348 [runScenario@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+08:05:39.348 [runScenario@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunFinished
+08:05:39.350 [runScenario@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: runner.testrunnerTest 
+08:05:39.350 [runScenario@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\myrab\new eclipse\eclipse-workspace\PracticeCucumber, TestClass :: runner\testrunnerTest
+08:05:39.366 [runScenario@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\myrab\new eclipse\eclipse-workspace\PracticeCucumber\src\test\java\runner\testrunnerTest.java, fileSeparator :: \, AbsolutePath :: C:\Users\myrab\new eclipse\eclipse-workspace\PracticeCucumber\., Normalized Path :: C:\Users\myrab\new eclipse\eclipse-workspace\PracticeCucumber, File.Separator :: \
+08:05:39.366 [runScenario@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: PracticeCucumber\src\test\java\runner\testrunnerTest.java, Absolute Path :: C:\Users\myrab\new eclipse\eclipse-workspace\PracticeCucumber\.., Normalized Path :: C:\Users\myrab\new eclipse\eclipse-workspace 
+08:05:39.385 [runScenario@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+08:05:39.385 [runScenario@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+08:05:39.392 [runScenario@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunFinished
+08:05:39.448 [tearDownClass@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: io.cucumber.testng.AbstractTestNGCucumberTests 
+08:05:39.448 [tearDownClass@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\myrab\new eclipse\eclipse-workspace\PracticeCucumber, TestClass :: io\cucumber\testng\AbstractTestNGCucumberTests
+08:05:39.465 [tearDownClass@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: null, fileSeparator :: \, AbsolutePath :: C:\Users\myrab\new eclipse\eclipse-workspace\PracticeCucumber\., Normalized Path :: C:\Users\myrab\new eclipse\eclipse-workspace\PracticeCucumber, File.Separator :: \
+08:05:39.465 [tearDownClass@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Fallback File Name is :: PracticeCucumber\testng.xml, Suite File Name :: C:\Users\myrab\new eclipse\eclipse-workspace\PracticeCucumber\testng.xml
+08:05:39.469 [tearDownClass@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+08:05:39.469 [tearDownClass@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+08:05:39.469 [tearDownClass@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+08:05:39.472 [tearDownClass@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: io.cucumber.testng.AbstractTestNGCucumberTests 
+08:05:39.472 [tearDownClass@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\myrab\new eclipse\eclipse-workspace\PracticeCucumber, TestClass :: io\cucumber\testng\AbstractTestNGCucumberTests
+08:05:39.483 [tearDownClass@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: null, fileSeparator :: \, AbsolutePath :: C:\Users\myrab\new eclipse\eclipse-workspace\PracticeCucumber\., Normalized Path :: C:\Users\myrab\new eclipse\eclipse-workspace\PracticeCucumber, File.Separator :: \
+08:05:39.483 [tearDownClass@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Fallback File Name is :: PracticeCucumber\testng.xml, Suite File Name :: C:\Users\myrab\new eclipse\eclipse-workspace\PracticeCucumber\testng.xml
+08:05:39.488 [tearDownClass@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+08:05:39.488 [tearDownClass@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+08:05:39.488 [tearDownClass@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunFinished
+08:05:39.489 [tearDownClass@0] DEBUG c.browserstack.utils.LogReportingAPI - sendPlatformDetails: Can't send CBT info, as driver or test is not found
+08:05:41.796 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3991
+
+08:05:41.797 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 4
+
+08:05:41.798 [pool-4-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 8555
+08:05:42.201 [Thread-0] DEBUG c.browserstack.BrowserStackJavaAgent - Starting final execution
+08:05:42.201 [Thread-0] DEBUG com.browserstack.testOps.Listener - Waiting to upload pending uploads
+08:05:42.313 [Thread-0] DEBUG com.browserstack.testOps.Listener - Waiting to upload pending uploads
+08:05:42.385 [pool-4-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+08:05:42.386 [pool-4-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-07-16T02:35:42.386373300Z][ TESTHUB ] Batch event successfull!
+
+08:05:42.420 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+08:05:42.422 [Thread-0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-07-16T02:35:42.420966300Z][ OBSERVABILITY ] Processing stop observability
+08:05:42.423 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [ TESTHUB ] Processing Request Kind stopBuildUpstream
+08:05:42.424 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: PUT api/v1/builds/vpao88f9ucki9qzuxvdeh1pltits8xsmhcvcadul/stop with request size 65
+08:05:42.724 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+08:05:42.725 [Thread-0] DEBUG com.browserstack.testOps.Listener - Testhub stop response: 
+08:05:42.725 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/vpao88f9ucki9qzuxvdeh1pltits8xsmhcvcadul to view build report, insights, and many more debugging information all at one place!
+
+08:05:42.726 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+08:05:45.528 [Thread-0] DEBUG com.browserstack.testOps.UsageStats - getFormattedData: Collecting data for TestObservability
+08:05:45.529 [Thread-0] DEBUG com.browserstack.testOps.UsageStats - getEventStats: Getting event data for TestObservability
+08:05:45.535 [Thread-0] DEBUG com.browserstack.testOps.UsageStats - [OBSERVABILITY] Failed to parse data from workers
+08:05:45.581 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestSuccessful with data: {"event_type":"SDKTestSuccessful","accessKey":"bkPyh6FsKMb4dNc8f4GC","userName":"brosertester_B0zSTo","event_properties":{"product":"[automate, observability]","buildName":"browserstack build2","os":"Windows 11","languageVersion":"17.0.11","appiumVersion":"","frameworkDetectionInstrumentation":{"ret-org.openqa.selenium.remote.RemoteWebDriver":486,"retransformClasses":487},"language":"java","sdkRunId":"f0eadbd7-3bf2-438e-8985-4ebdf2c647af","buildIdentifier":"#1","userFramework":"testng","testhub_uuid":"vpao88f9ucki9qzuxvdeh1pltits8xsmhcvcadul","detectedAppiumVersion":"null","detectedDependencies":"cucumber, testng","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":true},"referrer":"testng-javaagent\/1.19.5","hostname":"LAPTOP-5VUI9PNA","measures":{"local:start":7377,"sdk:setup":14784,"local:stop":2788},"language_framework":"java_testng","detectedFramework":"none","productUsage":{"testObservability":{"buildHashedId":"vpao88f9ucki9qzuxvdeh1pltits8xsmhcvcadul","manuallySet":true,"enabled":true,"events":{"hookEvents":{"started":{"errors":[],"failedCount":0,"triggeredCount":2,"sentCount":2},"finished":{"triggeredCount":2,"failedCount":0,"errors":[],"sentCount":2},"passed":{"errors":[],"failedCount":0,"triggeredCount":2,"sentCount":2}},"logEvents":{"errors":[],"failedCount":0,"triggeredCount":15,"sentCount":15,"log":{"errors":[],"failedCount":0,"triggeredCount":15,"sentCount":15}},"testEvents":{"started":{"errors":[],"failedCount":0,"triggeredCount":1,"sentCount":1},"finished":{"triggeredCount":1,"failedCount":0,"errors":[],"sentCount":1},"passed":{"errors":[],"failedCount":0,"triggeredCount":1,"sentCount":1}},"batchEvents":{"triggeredCount":2,"failedCount":0,"errors":[],"sentCount":2},"cbtSessionEvents":{"errors":[],"failedCount":0,"triggeredCount":0,"sentCount":0},"buildEvents":{"started":{"error":null,"status":"success","triggered":true},"finished":{"error":null,"status":"success","triggered":true}}}}},"detectedSeleniumVersion":"4.22.0","seleniumVersion":"4.22.0"}}
+08:05:46.013 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+08:05:47.650 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/7b7fc9d0bf312dd967495b2ccef9e9748f48dd70
+08:05:47.651 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+08:05:47.651 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(browserstack build2  1) is not same as client side buildName(browserstack build2 #1)
+08:05:47.652 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Browserstack Gradle-M Config File does not exist.
